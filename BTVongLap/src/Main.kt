@@ -27,6 +27,8 @@ fun Bai3While(){
 }
 
 fun main() {
+    println("Võ Văn Phương")
+    println("241505312230")
     Bai1()
     Bai2()
     Bai3()
