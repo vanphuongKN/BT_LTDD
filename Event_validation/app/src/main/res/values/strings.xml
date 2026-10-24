@@ -33,4 +33,5 @@
         <string name="label_email">Email: %1$s</string>
         <string name="label_phone">Số điện thoại: %1$s</string>
         <string name="label_student_id">Mã sinh viên: %1$s</string>
+        <string name="label_class">Lớp: %1$s</string>
 </resources>
