@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">Event_validation</string>
+        <string name="app_name">EventValidation</string>
+
+        <string name="title_register">ĐĂNG KÍ THÔNG TIN</string>
+        <string name="title_detail">CHI TIẾT SINH VIÊN</string>
+        <string name="hint_name">Họ và tên</string>
+        <string name="hint_email">Email</string>
+        <string name="hint_phone">Số điện thoại</string>
+        <string name="hint_student_id">Mã sinh viên</string>
+        <string name="hint_class">Lớp</string>
+        <string name="btn_register">ĐĂNG KÍ</string>
+        <string name="btn_go_detail">XEM CHI TIẾT</string>
+        <string name="btn_go_register">VỀ TRANG ĐĂNG KÍ</string>
+
+        <string name="err_name_empty">Họ tên không được để trống</string>
+        <string name="err_name_invalid">Họ tên chỉ gồm chữ cái và khoảng trắng</string>
+        <string name="err_name_short">Họ tên phải có ít nhất 2 từ</string>
+        <string name="err_email_empty">Email không được để trống</string>
+        <string name="err_email_invalid">Email không đúng định dạng (vd: abc@gmail.com)</string>
+        <string name="err_phone_empty">Số điện thoại không được để trống</string>
+        <string name="err_phone_invalid">SĐT gồm 10 số, bắt đầu bằng 03/05/07/08/09</string>
+        <string name="err_student_id_empty">Mã sinh viên không được để trống</string>
+        <string name="err_student_id_invalid">Mã sinh viên phải gồm đúng 10 chữ số</string>
+        <string name="err_class_empty">Lớp không được để trống</string>
+        <string name="err_class_invalid">Lớp chỉ gồm chữ và số, 3–15 ký tự, không khoảng trắng</string>
+
+        <string name="msg_register_success">Đăng kí thành công: %1$s</string>
+        <string name="msg_register_failed">Thông tin chưa hợp lệ, vui lòng kiểm tra lại</string>
+        <string name="msg_need_register_first">Vui lòng đăng kí thành công trước khi xem chi tiết</string>
+        <string name="action_detail">CHI TIẾT</string>
+
+        <string name="label_name">Họ và tên: %1$s</string>
+        <string name="label_email">Email: %1$s</string>
+        <string name="label_phone">Số điện thoại: %1$s</string>
+        <string name="label_student_id">Mã sinh viên: %1$s</string>
 </resources>
